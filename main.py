@@ -117,5 +117,105 @@ method'''
 # age = 21
 # print("My name is {} and I am {} years old".format(name, age))     #format string example
 
+'''Operators'''
+
+# a = 5
+# b = 32
+
+
+# print(a + b)
+# print(b - a)
+# print(a * b)
+# print(b//a)
+# print(b/a)
+# print(5**100)
+# print(32%5)
+
+
+# print(12+4/2)
+
+
+#assignment operators 
+
+# a = 23
+
+#compound assignment operators
+
+a=20
+# a += 20      shortform --->  a = a +20
+# a += 40
+# a += 60
+# a-=20
+# a*=20
+# a/=20
+# a//=20
+# a% = 20
+# a**=20
+
+# print(a)
+
+'''Comparison operator'''
+
+a = 12.1
+b = 12 
+
+# print(a == b)
+
+# print(a != b)
+
+# print(a > b)
+# print(45 < 67)
+# print(23 >= 23)
+# print(45 <= 45)
+
+# print("ABC" > "ACD")
+
+# print(ord("A")>38)
+
+'''Logical operators'''
+
+# print(22>2 and 22>4)                    #  and - Return True if both condition are Tru\
+# print(22>3 or 22>28)                    #  or - Return True if at least one condition is True
+# print(not 22==2)                    #  not - Reverse the boolean value
+
+# print(12 !=12 or 23 ==45 or 67 == 56 or 10 > 5)
+
+'''Trivial Questions'''
+
+# Answer True and False
+
+# print(126 > 130)
+# print((456 == 456) != (235 == 236))
+# print(12 < 10 or 45 == 56 or 69 > 70 or 15 != 13)
+# print(True and bool(0))
+
+'''Conditional statements'''
+
+# #if
+
+# a=20
+# if a>10:
+#     print("True")
+
+#if-else
+
+# a=20
+# if a<10:
+#     print("True")
+# else:
+#     print("false")    
+
+#if-elif-else
+
+# m =int(input("Enter your marks: "))
+
+# if m>90:
+#     print("Grade A")
+# elif 60<m<90:
+#     print("Grade B") 
+# elif 60>m>40:
+#     print("Grade C")    
+# else:
+#     print("fail")           
 
 
