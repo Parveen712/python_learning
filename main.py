@@ -219,3 +219,52 @@ b = 12
 #     print("fail")           
 
 
+'''FOr loops'''
+
+#range
+
+# #print 1 to 10
+# for i in range(1,11,1):
+#     print(i)
+
+# #print reverse 10 to 0
+# for i in range (10,0,-1):
+#     print(i)
+
+# #print -5 to -15
+# for i in range(-5,-16,-1):
+#     print(i)
+
+#print table by for loop range
+
+# n=int(input("Enter a table: "))
+
+# for i in range(n,(n*10)+1,n):
+#     print(i)
+
+
+# a = "Hello PArveen Kumar, How are you?"
+# print(len(a))
+
+# for i in range(len(a)):
+#     print(a[i])
+
+#direct itelator
+
+# a = "Hello PArveen Kumar, How are you?"
+
+# for i in a:
+#     print(i)
+
+'''Break --- uhi he loop ko exit kra deta hai'''
+# for i in range(1,21):
+#     if i == 15:
+#         break
+#     print(i)   
+
+'''Continue --- usko chpd ke aage chalta hai'''
+# for i in range(1,21):
+#     if i == 15:
+#         continue
+#     print(i)   
+
