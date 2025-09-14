@@ -262,9 +262,19 @@ b = 12
 #         break
 #     print(i)   
 
-'''Continue --- usko chpd ke aage chalta hai'''
+'''Continue --- usko chod ke aage chalta hai'''
 # for i in range(1,21):
 #     if i == 15:
 #         continue
 #     print(i)   
+
+'''Directory jane ke liye'''
+# print(dir(str))
+
+'''While loop'''
+
+# a=1
+# while a<=20:
+#     print(a)
+#     a+=1
 
