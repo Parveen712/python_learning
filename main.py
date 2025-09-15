@@ -373,4 +373,169 @@ b = 12
 # print(num)
 
 
+'''Tuple'''
 
+# a = (1,2,3,4,5,5,5.5,print(),"hello")
+# a[0]=12   #error occure
+
+# index=a.index(5)
+# print(index)
+
+# count = a.count(5)
+
+# print(count)
+
+# a,b,c,d=(1,2,3,4)
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+
+
+# a = (1)
+
+# print(type(a))     <int>
+
+# a = (1,)
+
+# print(type(a))    <tuple>
+
+'''Sets'''     #its depend on hash value
+
+# set={}     #<dict>
+# print(type(set))
+
+# set={1,2,3,4,2,5,6}    #doesnt occur duplicate value
+# set[0]=3          #doesnt change error show
+# print(set)
+
+# a=hash("hello")
+# print(a)
+# a=hash((1,23,4))
+# print(a)  
+   
+#for i in range (len(a))   #doesnt occur it give us error because it is unorderd
+
+# a = {1,8,9,"hello",2,3,4,5} 
+# for i in a:           
+#     print(i)
+
+#methods for set
+
+# a={8,1,2,3,4}
+# a.add(5)         #add element
+# print(a)
+# a.remove(4)        #remove element
+# print(a)
+# a.discard(3)          #same as remove
+# print(a)
+# a.pop()               #delete by hash value
+# print(a)
+# a.clear()                #clear all element
+# print(a)
+
+# a={1,2,3,4,5}
+# b={4,5,6,7,8}
+
+# print(a|b)      #union
+# print(a&b)       #intersection
+# print(b-a)       #difference
+# print(b^a)       #symmetric difference
+
+'''Dictionary'''
+
+# d = {10:100,20:200,30:300,40:400}
+
+
+# d[50] = 500 # creating
+# d[10] = 100 #updating
+# del d[30] # deleting 
+
+# print(d)
+
+# d = {10:100,20:200,30:300,40:400}
+# d.clear()
+# print(d)
+
+#transveral
+
+# d = {10:100,20:200,30:300,40:400}
+
+# for i in d:
+#     print(i)    #print key
+
+# for i in d:
+#     print(d[i])        #print value
+
+# for i in d.values():      #for value
+#     print(i)       
+
+
+# d = {10:100,20:200,30:300,40:400}
+
+# d2=d.copy()   #shallow copy of d
+
+# d2[0]=100    
+
+# print(d2)       #doesnt effect on d
+
+
+# d = {10:100,20:200,30:300,40:400}
+# print(d.items())
+
+
+
+'''Exception handling'''
+
+# a = int(input("tell your number :- "))
+
+# try:
+#     print(10/a)
+
+# except Exception as err:
+#     print(f"sorry there is an err as {err}")
+
+# else:
+#     print("good there is no exception")
+
+# finally:
+#     print("i will run no matter what")
+
+
+# print("ok i have done the division")
+
+
+
+
+# age = int(input("tell your age :- "))
+
+# try:
+
+#     if age < 10 or age > 18:
+#         raise ValueError("your age must be between 10 and 18")
+#     else:
+#         print("welcome to the club")
+
+# except Exception as err:
+#     print(f"an error occured as {err}")
+
+
+# print("the club will start soon")
+
+
+'''File handling'''
+
+# p=open('main.py')            #given the pathh of file
+# print(p.read())
+
+# p=open("super.text",'w')     #w for write
+
+# p.write("Hello I am parveen kumar and i write a code inside the file")
+
+# p.close()      #must be close 
+
+# p=open("super.text",'a')     #a for append
+
+# p.write("Hello I am parveen kumar and i write a code inside the file")
+
+# p.close()      #must be close 
