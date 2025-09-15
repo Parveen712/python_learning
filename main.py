@@ -328,3 +328,49 @@ b = 12
 
 # palindrome("NAMAN")
 
+'''Lists'''
+# a = [12,13,14,15,16,34.5]
+
+
+# #1st way using index
+
+# for i in range(len(a)):
+#     print(a[i])
+
+# #2nd way directly on values
+
+# for i in a:
+#     print(i)
+
+# print(dir(list))       #all methods of lists is shown
+# help(list)                #all methods initialize and given merthod and help is shown
+
+#some methods of list
+
+# num=[5,2,9,1,5,6]   #initialize list
+
+# num.append(10)      #add 10 in end
+# print(num)
+# num.insert(1,3)       #inssert 3 at index 2
+# print(num)
+# num.extend([20,25,43])   #extend the list 
+# print(num)
+# num.remove(5)          #remove the first occurence of 5
+# print(num)
+# popped_item=num.pop(3)   #remove and store  the element at index 3
+# print(popped_item)
+# index=num.index(6)       #find the index at 6
+# print(index)
+# count_5=num.count(5)      #count the occurence of 5
+# print(count_5)
+# num.sort()                #sort the list
+# print(num)
+# num.reverse()             #reverse the whole list
+# print(num)
+# new_number=num.copy()      #copy of the list
+# print(new_number)
+# num.clear()                 #remove all element of the list
+# print(num)
+
+
+
