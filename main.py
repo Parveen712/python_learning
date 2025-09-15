@@ -278,3 +278,53 @@ b = 12
 #     print(a)
 #     a+=1
 
+'''Functions'''
+
+# def hello():     #declare function
+#     print("HEllo PArveen kumar ")
+
+# hello()         #calling the function
+
+# #functions with parameter and arguments
+# def hello (name):      #name is a parameter
+#     print(f"Heelo {name}")
+
+# hello("Parveen")       #PArveen is an argument
+
+'''Types of arguments'''
+
+#positional argument
+
+# def add(a,b):
+#     return a+b
+
+# print(add(12,33))     # 12 is assign to a and 33 is assign to b 
+
+#default argument
+
+# def greet(name="Devil"):
+#     print(f"Hello {name}")
+
+# greet()    # use default name is devil
+# greet("Bob")   #use bob
+
+#keyword argument
+
+# def greet(name,age):
+#     print(f"I am {name} and my age is {age}")
+
+# greet(name="Parveen", age="22")    
+
+# #simple palindrome 
+# def palindrome(str):
+#     rev=""
+#     for i in range(len(str)-1,-1,-1):
+#         rev=rev+str[i]
+
+#     if rev==str:
+#         print(f"{str} is palindrome")
+#     else:
+#         print(f"{str} is  not a palindrome")    
+
+# palindrome("NAMAN")
+
