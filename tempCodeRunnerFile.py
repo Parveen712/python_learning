@@ -1,0 +1,1 @@
+print(file.read())          #read entire file

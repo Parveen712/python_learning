@@ -539,3 +539,17 @@ b = 12
 # p.write("Hello I am parveen kumar and i write a code inside the file")
 
 # p.close()      #must be close 
+
+# file=open("super.text",'r')
+# print(file.read())          #read entire file
+# print(file.readline())       #read one line
+# print(file.readlines())      #read all lines in a list
+
+# file.close()
+
+#no need to close file.....
+# with open("super.text","r") as f:
+#     content=f.read()
+#     print(content)
+
+
