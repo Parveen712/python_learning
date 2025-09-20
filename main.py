@@ -871,3 +871,63 @@ b = 12
 #     print(f"your total is {a + b} ")
 
 # addition(12,67)
+
+'''list, dictionary and sets comprehnsion'''  #don’t have to use multiple lines of code for loops and If-Else statements.
+
+# list=[i for i in range(1,11) if i%2==0]           #for list
+# print(list)                                       
+
+# dictionary={i : i*i for i in range(1,11)}           #for dict
+# print(dictionary)
+
+# set=[i*i for i in range(10) if i%2==0]          #for set
+# print(set)
+
+
+'''LAmbda'''      #for short function def
+
+#for a length/multiline we use lambda
+
+#def sum(a,b):
+#     print(a+b)
+
+# sum(12,12)    
+
+# square=lambda a:a**2
+# print(square(4))
+
+# sum=lambda a,b:a+b
+# print(sum(12,21))
+
+# check_even=lambda x:"Even" if x%2==0 else "odd"
+# print(check_even(8))
+
+'''Maps,filter and zip'''
+
+# Use map() when you want to transform every item in a list
+
+# num=[1,2,3,4,5]
+# change=map(lambda x : x**2 ,num)
+# print(list(change))
+
+# Filter as the name suggest is used to filter out the stuff.'
+
+# num=[1,2,3,4,5]
+# even=filter(lambda x : x%2==0 ,num)
+# print(list(even))
+
+# a = [1,2,3,4,5]
+
+# def double(x):
+#     return x *2
+
+# result = map(double,a)
+
+# print(list(result))
+
+'''Modules''' #Module is just a single file containing code and we can use this file code in other fileB
+
+# from modelss.model import hello,maths
+
+# hello.hello()
+# print(maths.addition(12,11))
